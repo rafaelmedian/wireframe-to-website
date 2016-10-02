@@ -55,13 +55,75 @@ body {
 .header {
   background: #c1c1c1;
   width: 100%;
-  padding: 20px;
-}
-
-.header__nav {
+  /*padding: 20px;*/
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.header__nav {
+
+}
+
+.nav__sidenav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav__sidenav a {
+  margin: 0;
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+}
+
+.nav__sidenav a:hover {
+  background: darken(deepskyblue, 20%);
+}
+
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+* {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+h1, h2, p{
+ font-weight: 500;
+}
+
+h1 {
+  line-height: 2.38rem;
+  font-size: 2rem;
+}
+
+h1 > a {
+  text-decoration: none;
+}
+
+h2 {
+  line-height: 1.75rem;
+  font-size: 1.75rem;
+}
+
+/*MORE INFO*/
+h5 {
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+
+h6 {
+  font-size: .81rem;
+  line-height: .9rem;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.3rem;
 }
