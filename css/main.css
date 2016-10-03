@@ -47,10 +47,7 @@ figure {
   margin: 0 0 5px 0;
 }
 
-button {
-    border: none;
-    background-color: white;
-}
+
 
 /* ==========================================================================
    Layout
@@ -166,6 +163,7 @@ ul.nav__sidenav.nav--right {
   margin-left: 3em;
 }
 
+
 .menu-footer-links__column a {
   display: block;
   white-space:nowrap;
@@ -177,6 +175,9 @@ ul.nav__sidenav.nav--right {
   justify-content: space-around;
 }
 
+.site-footer__social a:not(:first-child) {
+  padding-left: 2em;
+}
 
 /* ==========================================================================
    Typography
@@ -256,6 +257,11 @@ h5 {
 /* ==========================================================================
    THEME
    ========================================================================== */
+img:hover {
+  opacity: .95;
+  transition: opacity .3s ease-out;
+}
+
 
 .home-page-featured-column .post {
   padding: 18px;
