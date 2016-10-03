@@ -19,7 +19,11 @@ html {
   font-family: 'Work Sans', Segoe, Tahoma, sans-serif;
   background-color: white;
   text-size-adjust: 100%;
-  font: normal 100%/1.3;
+  /*font: normal 100%/1.3;*/
+  font-size: 1rem;
+  -webkit-font-smoothing: auto !important;
+  letter-spacing: 0.01em;
+  line-height: 1.625;
 }
 
 body {
@@ -70,7 +74,6 @@ aside {
   flex-wrap: wrap;
 }
 
-
 /*HEADER************/
 
 .header {
@@ -84,6 +87,15 @@ aside {
   flex-wrap: wrap;
 }
 
+
+@media (max-width: 840px) {
+  a.header__logo {
+    margin: 10px auto;
+    padding-top: 20px;
+  }
+}
+
+
 .header__nav {
   /*width: 80%;*/
 }
@@ -93,6 +105,10 @@ aside {
   list-style: none;
   display: flex;
   justify-content: center;
+}
+
+ul.nav__sidenav.nav--right {
+    padding-left: 0;
 }
 
 .nav__sidenav a {
@@ -110,15 +126,11 @@ aside {
   opacity: .5;
 }
 
-
-/********  MAIN  ************/
-
 .main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-
 
 .home-page-featured {
   flex: 1 1 60%;
@@ -136,7 +148,18 @@ aside {
   flex-direction: column;
 }
 
+.footer {
+  border-top: 5px solid #000;
+  width: 100%;
+  padding: 30px 0 40px;
+}
 
+.site-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 /* ==========================================================================
    Typography
    ========================================================================== */
@@ -176,8 +199,12 @@ h5 {
   font-weight: 400;
 }
 
-.post-category {
+.post-title {
+  font-size: 1.75rem;
+}
 
+.post-category {
+  font-size: .75rem;
 }
 
 .post__top-image img {
@@ -209,11 +236,15 @@ h5 {
    ========================================================================== */
 
 .home-page-featured-column .post {
-   padding: 18px;
+  padding: 18px;
 }
 
-article.post {
-    margin-bottom: 12px;
+.post {
+  margin-bottom: 12px;
+}
+
+p.post-link-more {
+  margin: 40px 0 50px 0;
 }
 
 .sidebar-list {
@@ -239,7 +270,29 @@ article.post {
   margin-bottom: 40px;
 }
 
+.home-more-button {
+  width: 100%;
+  text-align: center;
+  padding: 3.1em 0 2.8em;
+}
+
+.button-main {
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  background-color: #50E3C2;
+  border: 1px solid #50E3C2;
+  -webkit-transition-duration: 800ms;
+  transition-duration: 800ms;
+}
+.button-main:hover {
+  border-color: #000;
+  transition-duration: 400ms;
+}
+
+
 .slider {
+  margin: 40px 0 50px;
   width: 100%;
 }
 
