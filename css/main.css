@@ -58,10 +58,6 @@ figure {
   max-width: 960px;
   margin: auto;
 
-  /* Flex */
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
 }
 
 /*HEADER************/
