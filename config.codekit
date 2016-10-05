@@ -110,6 +110,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/content\/sidebar-list__item-4@2x 2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52690,
+		"inputAbbreviatedPath": "\/img\/content\/sidebar-list__item-4@2x 2.jpg",
+		"outputAbbreviatedPath": "\/img\/content\/sidebar-list__item-4@2x 2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/content\/sidebar-list__item-4@2x.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
