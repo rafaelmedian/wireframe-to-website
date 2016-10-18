@@ -127,6 +127,11 @@ ul.nav__sidenav.nav--right {
   flex: 1 1 70%;
 }
 
+.home-more-button {
+  text-align: center;
+  padding: 5em 1em;
+}
+
 .home-side-col {
   flex: 1 1 30%;
 }
